@@ -49,3 +49,10 @@ javac BankAccountManagementSystem.java
 3. Run the program
 
 java BankAccountManagementSystem
+
+
+📖 Learning Progress:-
+✅Project initialized and basic account operations implemented
+🔄Ongoing — More features to be added with each milestone
+
+✨ This is an educational project. Follow along as I build it step by step while learning Java!
