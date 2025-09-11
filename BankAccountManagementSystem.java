@@ -55,6 +55,7 @@ class BankAccount {
 }
 public class BankAccountManagementSystem {
     public static void main(String[] args){
-
+        BankAccount account1=new BankAccount("Steve Rogers", 1000000.5666);
+        account1.displayInfo();
     }
 }
