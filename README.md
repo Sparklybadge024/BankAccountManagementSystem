@@ -6,20 +6,52 @@ The goal of this project is to gradually build a **Bank Account Management Syste
 ---
 
 ## 🚀 Current Features (as of now)
-- Create an account with account holder name and initial balance  
-- Deposit money into account  
-- Withdraw money with balance check and account status check  
-- Display account details (name, balance, active/inactive)  
+- Create an account with:
 
+- Account holder name
+
+- Unique account number
+
+- Initial balance
+
+- Secure PIN
+
+- Deposit money into account with:
+
+- Account number & name verification
+
+- Positive amount validation
+
+- Withdraw money with:
+
+- PIN verification
+
+- Balance check
+
+- Account status (active/inactive) check
+
+- Automatically updates account active/inactive status (inactive if balance ≤ 1000)
+
+- Display account details (name, account number, balance, active/inactive)
+
+- Check balance securely (requires correct PIN)
+
+- Support for multiple accounts
 ---
 
 ## 📌 Next Planned Steps
 This project is being developed **incrementally** with each learning milestone. Upcoming features include:
-- Support for multiple accounts  
-- Option to close/deactivate an account  
-- Track number of transactions per account  
-- Add user input (Scanner) for interactive banking  
-- Improved structure with separate classes and modular code  
+- Close/deactivate an account manually
+
+- Track number of transactions per account
+
+- Add user input (Scanner) for interactive banking
+
+- Handle invalid inputs gracefully (e.g., wrong data types)
+
+- Improved structure with separate files for different classes
+
+- Possibly introduce interest calculation for savings accounts
 
 ---
 
