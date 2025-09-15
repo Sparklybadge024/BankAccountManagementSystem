@@ -6,7 +6,7 @@ class BankAccount {
     private short pin;
 
     void updateStatus(){
-        if(balance<=1000){
+        if(balance>1000){
         isActive=false;
     }else{
         isActive=true;
@@ -53,8 +53,8 @@ class BankAccount {
     }
     return balance;
         }
-        System.out.println("Pin you entered is incorrect.");
-        return 404;
+        System.out.println("Transaction Failed: Incorrect PIN Entered.");
+        return -1;
         
     }   
 
