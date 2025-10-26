@@ -9,7 +9,7 @@ class BankAccount {
 
 
     void updateStatus(){
-        if(balance>1000){
+        if(balance<1000){
         isActive=false;
     }else{
         isActive=true;
@@ -95,8 +95,9 @@ class BankAccount {
     void changePin(short oldPin,short newPin){
         if(oldPin==pin){
           pin=newPin;
+          System.out.println("PIN has been changed.");
         }else{
-            System.out.println("To change the pin enter the correct pin");
+          System.out.println("To change the pin enter the correct pin");
         }
     }
 
@@ -123,9 +124,12 @@ public class BankAccountManagementSystem {
         account2.calculateInterest(6, 2);
         
 
-        account1.changePin(6969, 9696);
-
-
+        account1.changePin((short)6969, (short)9696);
+        account1.withdraw(100, (short)9090);
+        account1.withdraw(100, (short)6969);
+        account1.withdraw(100, (short)9696);
+  
+  
             }
 }
 
