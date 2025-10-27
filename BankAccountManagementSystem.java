@@ -128,9 +128,8 @@ public class BankAccountManagementSystem {
         account1.withdraw(100, (short)9090);
         account1.withdraw(100, (short)6969);
         account1.withdraw(100, (short)9696);
-  
-  
-            }
+   
+        }
 }
 
 
